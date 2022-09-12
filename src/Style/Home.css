@@ -41,10 +41,12 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  background-color: #1d7743;
+  color: white;
 }
 
 .skills h1 {
-  color: #3e497a;
+  color: white;
 }
 
 .skills .list {
@@ -53,6 +55,27 @@
 }
 
 .list span {
+  font-size: 20px;
+}
+.contacto {
+  font-size: 35px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contacto h1 {
+  color: #3e497a;
+}
+
+.contacto .list {
+  list-style: none;
+  width: 60%;
+}
+
+.contacto span {
   font-size: 20px;
 }
 
