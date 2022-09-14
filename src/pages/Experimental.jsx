@@ -23,10 +23,16 @@ export const Experimental = () => {
           >
             <h3 className="vertical-timeline-element-title">{e.lugar}</h3>
             <h4 className="vertical-timeline-element-subtitle">{e.estudio}</h4>
-            <h4 className="vertical-timeline-element-text">Dipoma</h4>
-            <a href={e.diploma} target="blank">
+            <h4 className="vertical-timeline-element-text">Diploma</h4>
+            <br />
+            <a
+              className="vertical-timeline-element-text"
+              href={e.diploma}
+              target="blank"
+            >
               <button className="btnEx">VER</button>
             </a>
+            <br />
           </VerticalTimelineElement>
         ))}
         {/* trabajo */}
