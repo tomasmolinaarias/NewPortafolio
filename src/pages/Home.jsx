@@ -31,7 +31,7 @@ export const Home = () => {
           <hr />
           <li className="item">
             <h4>Back-end</h4>
-            <span>Node.js, Express, PostgreSQL, MongoDB, SQL, Git, Github</span>
+            <span>Node.js, Express, PostgreSQL, MongoDB, SQL</span>
           </li>
           <hr />
           <li className="item">
