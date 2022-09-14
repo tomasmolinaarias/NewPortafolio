@@ -15,6 +15,7 @@
 .project img {
   width: 700px;
   border-radius: 10px;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
 }
 
 .project p {
