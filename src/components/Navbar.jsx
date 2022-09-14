@@ -22,9 +22,9 @@ export const Navbar = () => {
         </Button>
       </div>
       <div className="links">
-        <Link to="/">Home </Link>
-        <Link to="/Projects">Proyects</Link>
-        <Link to="/Experience">Experience</Link>
+        <Link to="/">inicio </Link>
+        <Link to="/Projects">Projectos</Link>
+        <Link to="/Experience">Experiencias</Link>
       </div>
     </div>
   );

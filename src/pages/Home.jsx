@@ -31,12 +31,12 @@ export const Home = () => {
           <hr />
           <li className="item">
             <h4>Back-end</h4>
-            <span>Node.js, Express, PostgreSQL, MongoDB, SQL</span>
+            <span>Node.js, Express, PostgreSQL, MongoDB, SQL, Git, Github</span>
           </li>
           <hr />
           <li className="item">
-            <h4>Lenguages</h4>
-            <span> JavaScript, Git, Github</span>
+            <h4>Lenguajes</h4>
+            <span> JavaScript</span>
           </li>
           <hr />
         </ol>
