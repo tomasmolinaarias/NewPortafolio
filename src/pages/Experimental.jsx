@@ -5,7 +5,7 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import SchoolIcon from "@mui/icons-material/School";
-import WorkIcon from "@mui/icons-material/Work";
+/* import WorkIcon from "@mui/icons-material/Work"; */
 import { experencia } from "../helpers/experencie";
 import "../Style/experience.css";
 export const Experimental = () => {
@@ -20,6 +20,7 @@ export const Experimental = () => {
             date={e.fecha}
             iconStyle={{ background: "#3e497a", color: "#fff" }}
             icon={<SchoolIcon />}
+            key={e.estudio}
           >
             <h3 className="vertical-timeline-element-title">{e.lugar}</h3>
             <h4 className="vertical-timeline-element-subtitle">{e.estudio}</h4>

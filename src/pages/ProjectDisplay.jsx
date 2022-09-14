@@ -11,10 +11,12 @@ export const ProjectDisplay = () => {
     <div className="project">
       <h1>{project.name}</h1>
       <a href={project.url}>
-        <img src={project.image} />
+        <img src={project.image} alt="Projecto" />
       </a>
+
       <p>
         <b>Tecnologias:</b>
+
         {project.skills}
       </p>
       <a href={project.github}>
