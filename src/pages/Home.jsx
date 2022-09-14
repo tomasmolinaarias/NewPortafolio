@@ -44,18 +44,18 @@ export const Home = () => {
       <div className="contacto">
         <h2>CONTACTO</h2>
         <ol className="list">
-          <li className="item">
+          <li className="item2">
             <h4> EMAIL :</h4>
-            <span>victortomasmolinaarias@gmail.com</span>
+            <span id="correo">victortomasmolinaarias@gmail.com</span>
           </li>
           <br />
           <hr />
-          <li className="item">
+          <li className="item2">
             <h4>PHONE :</h4>
             <span>+56973751229</span>
           </li>
           <hr />
-          <li className="item">
+          <li className="item2">
             <h4>CURRICULUM :</h4>
 
             <a href={cv} download>

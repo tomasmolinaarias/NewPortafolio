@@ -113,6 +113,9 @@
   .contacto h2 {
     font-size: 30px;
   }
+  #correo {
+    font-size: 70%;
+  }
 }
 .btn {
   background-color: #e7e7e7;
