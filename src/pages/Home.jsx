@@ -2,7 +2,7 @@ import React from "react";
 import "../Style/Home.css";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import EmailIcon from "@mui/icons-material/Email";
+import cv from "../assets/document/CV_VictorMolina.pdf";
 export const Home = () => {
   return (
     <div className="home">
@@ -28,14 +28,17 @@ export const Home = () => {
             <h4>Front-end</h4>
             <span>React.js, Handlebars.js, Bootstrap, HTML/CSS</span>
           </li>
+          <hr />
           <li className="item">
             <h4>Back-end</h4>
             <span>Node.js, Express, PostgreSQL, MongoDB, SQL</span>
           </li>
+          <hr />
           <li className="item">
             <h4>Lenguages</h4>
             <span> JavaScript, Git, Github</span>
           </li>
+          <hr />
         </ol>
       </div>
       <div className="contacto">
@@ -54,7 +57,10 @@ export const Home = () => {
           <hr />
           <li className="item">
             <h4>CURRICULUM :</h4>
-            <button>descargar</button>
+
+            <a href={cv} download>
+              <button className="btn">DESCARGAR</button>
+            </a>
           </li>
           <hr />
         </ol>

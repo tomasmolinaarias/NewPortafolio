@@ -22,7 +22,7 @@ export const Footer = () => {
           <InstagramIcon />
         </a>
       </div>
-      <p>@ victorMolina</p>
+      <p>@VictorMolina</p>
     </div>
   );
 };

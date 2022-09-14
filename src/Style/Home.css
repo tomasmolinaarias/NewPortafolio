@@ -101,3 +101,25 @@
     font-size: 30px;
   }
 }
+.btn {
+  background-color: #e7e7e7;
+  color: black;
+  font-size: 16px;
+  border: 2px solid black;
+  height: 50px;
+  width: 50%;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+a {
+  text-decoration: none;
+}
+.btn:hover {
+  background-color: #21325e;
+  color: white;
+  margin-top: -5px;
+  padding-bottom: 10px;
+}
