@@ -13,13 +13,16 @@ export const ProjectList = [
     skills: "Handlebars.js, CSS, Bootstrap, JavaScript, Node.js, Express",
     github: "https://github.com/tomasmolinaarias/clubFogeo",
     url: "https://clubdetirofogueo.herokuapp.com/",
+    description: "El proyecto esta enfocado en promocionar un Club de tiros.",
   },
   {
-    name: "Crud Simple",
+    name: "Tareas",
     image: CrudSimple,
     skills: "JavaScript, HTML, CSS, Bootstarp y React.js",
-    github: "https://github.com/tomasmolinaarias/CrudSimple",
+    github: "https://github.com/tomasmolinaarias/tareas",
     url: "https://melodic-cucurucho-5b18de.netlify.app/",
+    description:
+      "El proyecto esta enfocado para anotar tareas, editar y eliminar.",
   },
   {
     name: "Rick And Morty",
@@ -27,6 +30,8 @@ export const ProjectList = [
     skills: "HTML ,CSS, React, Bootstrap",
     github: "https://github.com/tomasmolinaarias/RickAndMorty",
     url: "https://rick-and-mortyn.netlify.app",
+    description:
+      "El proyecto esta enfocado a leer un api de Rick And Morty y mostrar los personajes ",
   },
   {
     name: "Sugerencias",
@@ -34,6 +39,8 @@ export const ProjectList = [
     skills: "JavaScript, HTML, CSS y Boostrap",
     github: "https://github.com/tomasmolinaarias/sugerencias",
     url: "https://tomasmolinaarias.github.io/sugerencias/",
+    description:
+      "El proyecto esta enfocado en mostrar sugerecias de videos en youtube ",
   },
   {
     name: "Viajes Chile",
@@ -41,6 +48,7 @@ export const ProjectList = [
     skills: "JavaScript, HTML, CSS y Boostrap",
     github: "https://github.com/tomasmolinaarias/viajes-chile",
     url: "https://chile-viajes1-victort-molina.netlify.app",
+    description: "El proyecto esta enfocado en promocionar viajes chile",
   },
   {
     name: "Suricata",
@@ -48,6 +56,8 @@ export const ProjectList = [
     skills: "HTML y CSS ",
     github: "https://github.com/tomasmolinaarias/suricata.git",
     url: "https://tomasmolinaarias.github.io/suricata/",
+    description:
+      "El proyecto esta enfocado en promocionar un restaurante de comida llamada Suricata. ",
   },
   {
     name: "Meet And Coffee",
@@ -55,6 +65,7 @@ export const ProjectList = [
     skills: "HTML y CSS ",
     github: "https://github.com/tomasmolinaarias/meet-y-coffee",
     url: "https://tomasmolinaarias.github.io/meet-y-coffee/",
+    description: "El proyecto esta enfocado en promocionar el meet y coffee",
   },
   {
     name: "Iguana",
@@ -62,5 +73,6 @@ export const ProjectList = [
     skills: "HTML y CSS ",
     github: "https://github.com/tomasmolinaarias/IGUANA",
     url: "https://tomasmolinaarias.github.io/IGUANA/",
+    description: "Proyecto enfocado en mostrar informacion sobre las iguanas",
   },
 ];

@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom";
 import { ProjectList } from "../helpers/Proyectlist";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import "../Style/ProjectDisplay.css";
-import "../Style/Projects.css";
+
 export const ProjectDisplay = () => {
   const { id } = useParams();
   const project = ProjectList[id];
@@ -13,13 +13,18 @@ export const ProjectDisplay = () => {
       <a href={project.url}>
         <img src={project.image} alt="Projecto" />
       </a>
+      <div>
+        <p className="descripcion">
+          <b>Descripción : </b>
+        </p>
+        <span> {project.description}</span>
+        <p className="tecnologias">
+          <b>Tecnologias : </b>
+        </p>
+        <span> {project.skills}</span>
+      </div>
 
-      <p>
-        <b>Tecnologias:</b>
-
-        {project.skills}
-      </p>
-      <a href={project.github}>
+      <a id="iconGit" href={project.github}>
         <GitHubIcon />
       </a>
     </div>
