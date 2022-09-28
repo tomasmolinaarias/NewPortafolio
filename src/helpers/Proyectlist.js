@@ -2,7 +2,7 @@ import viajechile from "../assets/img/Proyectos/ViajesChile.png";
 import clubDetiro from "../assets/img/Proyectos/clubdetiros.png";
 import CrudSimple from "../assets/img/Proyectos/curdSimple.png";
 import RickAndMorty from "../assets/img/Proyectos/rickandMorty.png";
-import sugerencias from "../assets/img/Proyectos/Sugerencias.png";
+import sugerencias from "../assets/img/Proyectos/Tareas.png";
 import meetAndCoffee from "../assets/img/Proyectos/meetAndCoffe.png";
 import suricata from "../assets/img/Proyectos/suricata.png";
 import iguana from "../assets/img/Proyectos/iguana.png";
