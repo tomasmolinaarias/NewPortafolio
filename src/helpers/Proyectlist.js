@@ -13,11 +13,11 @@ export const ProjectList = [
     name: "Sistema de predicción de precios",
     image: sistema,
     skills:
-      "Back-end: JavaScript,express,node,puppeteer,cors,mongoose Front-end: HTML, CSS, Bootstarp, chart.js y React.js",
+      "JavaScript, express, node, puppeteer, cors, HTML, CSS, Bootstarp, chart.js y React.js",
     github: "#",
     url: "https://pokemon-pokepoke.vercel.app/",
     description:
-      "Proyecto enfocado en predecir los precios de maderas según su categoría, Para ello utilice la técnica de Scraping para recopilar información y analizarla para predecir el precio en un futuro.",
+      "Proyecto enfocado en predecir los precios de maderas según su categoría",
   },
   {
     name: "Pokemon",
