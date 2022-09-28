@@ -49,12 +49,12 @@
     font-size: 30px;
   }
   .project img {
-    max-width: 300px;
+    max-width: 89%;
   }
   .project p {
     font-size: 65%;
   }
   .project span {
-    font-size: 60%;
+    font-size: 50%;
   }
 }

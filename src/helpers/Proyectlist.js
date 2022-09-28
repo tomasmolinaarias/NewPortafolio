@@ -20,7 +20,7 @@ export const ProjectList = [
     image: CrudSimple,
     skills: "JavaScript, HTML, CSS, Bootstarp y React.js",
     github: "https://github.com/tomasmolinaarias/tareas",
-    url: "https://melodic-cucurucho-5b18de.netlify.app/",
+    url: "https://wonderful-fudge-b8b2a7.netlify.app/",
     description:
       "El proyecto esta enfocado para anotar tareas, editar y eliminar.",
   },
