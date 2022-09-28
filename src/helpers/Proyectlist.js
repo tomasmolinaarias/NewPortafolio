@@ -6,7 +6,27 @@ import sugerencias from "../assets/img/Proyectos/Sugerencias.png";
 import meetAndCoffee from "../assets/img/Proyectos/meetAndCoffe.png";
 import suricata from "../assets/img/Proyectos/suricata.png";
 import iguana from "../assets/img/Proyectos/iguana.png";
+import pokemon from "../assets/img/Proyectos/Pokemon.png";
+import sistema from "../assets/img/Proyectos/scraping.png";
 export const ProjectList = [
+  {
+    name: "Sistema de predicción de precios",
+    image: sistema,
+    skills:
+      "Back-end: JavaScript,express,node,puppeteer,cors,mongoose Front-end: HTML, CSS, Bootstarp, chart.js y React.js",
+    github: "#",
+    url: "https://pokemon-pokepoke.vercel.app/",
+    description:
+      "Proyecto enfocado en predecir los precios de maderas según su categoría, Para ello utilice la técnica de Scraping para recopilar información y analizarla para predecir el precio en un futuro.",
+  },
+  {
+    name: "Pokemon",
+    image: pokemon,
+    skills: "JavaScript, HTML, CSS, Bootstarp y React.js",
+    github: "https://github.com/tomasmolinaarias/Pokemon",
+    url: "https://pokemon-pokepoke.vercel.app/",
+    description: "El proyecto esta enfocado en promocionar mostrar pokemon",
+  },
   {
     name: "Club de tiro",
     image: clubDetiro,
