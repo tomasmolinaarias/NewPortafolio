@@ -15,7 +15,7 @@ export const ProjectList = [
     skills:
       "JavaScript, express, node, puppeteer, cors, HTML, CSS, Bootstarp, chart.js y React.js",
     github: "#",
-    url: "https://pokemon-pokepoke.vercel.app/",
+    url: "https://demo-front.vercel.app/",
     description:
       "Proyecto enfocado en predecir los precios de maderas según su categoría",
   },
