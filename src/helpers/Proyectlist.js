@@ -25,7 +25,8 @@ export const ProjectList = [
     skills: "JavaScript, HTML, CSS, Bootstarp y React.js",
     github: "https://github.com/tomasmolinaarias/Pokemon",
     url: "https://pokemon-pokepoke.vercel.app/",
-    description: "El proyecto esta enfocado en promocionar mostrar pokemon",
+    description:
+      "El proyecto esta enfocado en promocionar mostrar pokemon('Practicando redux')",
   },
   {
     name: "Club de tiro",
@@ -42,7 +43,7 @@ export const ProjectList = [
     github: "https://github.com/tomasmolinaarias/tareas",
     url: "https://wonderful-fudge-b8b2a7.netlify.app/",
     description:
-      "El proyecto esta enfocado para anotar tareas, editar y eliminar.",
+      "El proyecto esta enfocado para anotar tareas, editar y eliminar.('Practicando CRUD SIMPLE')",
   },
   {
     name: "Rick And Morty",
